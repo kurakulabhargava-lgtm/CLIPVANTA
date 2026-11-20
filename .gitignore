@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+ENV/
+
+# Node
+node_modules/
+.next/
+out/
+build/
+dist/
+*.log
+
+# ClipVanta storage & media
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/audio/*
+!storage/audio/.gitkeep
+storage/clips/*
+!storage/clips/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
